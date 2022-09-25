@@ -1,0 +1,28 @@
+.sz-container{
+    width: 714px;
+    height: 407px;
+}
+.hgt-100{
+    height: 100vw;
+}
+.hgt-50{
+    height: 50vw;
+}
+.wd-100{
+    width: 100vw;
+}
+.wd-50{
+    width: 50vw;
+}
+.mg-rigth{
+    margin-right: 10px;
+}
+.mg-top{
+    margin-top: 10px;
+}
+.mg-left{
+    margin-left: 10px;
+}
+.mg-bottom{
+    margin-bottom: 10px;
+}

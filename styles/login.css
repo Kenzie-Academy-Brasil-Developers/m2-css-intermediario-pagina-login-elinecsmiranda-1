@@ -1,0 +1,26 @@
+.login-1{
+    background-color: var(--color-purple-3);
+    background-image: url(../pages/img/login-fundo.jpg);
+    width: 321px;
+    height: 407px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-2{
+    background-color: var(--color-purple-6);
+    width: 393px;
+    height: 407px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.mg-text-login1{
+    width: 280px;
+    height: 100px;
+    margin-top: 200px;
+}
+.mg-login2{
+    width: 90%;
+    height: 100%;
+}

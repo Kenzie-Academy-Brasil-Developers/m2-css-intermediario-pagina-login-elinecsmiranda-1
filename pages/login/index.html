@@ -4,11 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/styles/globalStyles.css">
+    <link rel="stylesheet" href="../../styles/globalStyles.css">
+    <link rel="stylesheet" href="../../styles/positioning.css">
+    <link rel="stylesheet" href="../../styles/sizes.css">
+    <link rel="stylesheet" href="../../styles/texts.css">
+    <link rel="stylesheet" href="../../styles/gaps.css">
+    <link rel="stylesheet" href="../../styles/inputs.css">
+    <link rel="stylesheet" href="../../styles/buttons.css">
+    <link rel="stylesheet" href="../../styles/bg-colors.css">
+    <link rel="stylesheet" href="../../styles/borders.css">
+    <link rel="stylesheet" href="../../styles/login.css">
+    <link rel="stylesheet" href="../../styles/modal.css">
+    
     <link rel="stylesheet" href="index.css">
     <title>Login</title>
 </head>
-<body>
+<body id="body-container" class="bg-purple">
+    <main class="page flex justify-center align-center">
+        <div class="sz-container flex justify-center align-center">
+            <div class="login-1 radius-left">
+                <p class="title mg-text-login1">A plataforma desenvolvida para o seu restaurante</p>
+            </div>
+            <div class="login-2 radius-right ">
+                <div class="flex gap-1 justify-center align-center f-column mg-login2">
+                    <p class="text-input">E-mail</p>
+                <input class="input-group" type="text" placeholder="Digite seu email aqui">
+                <p class="text-input">Senha</p>
+                <input class="input-group" type="text" placeholder="Digite sua senha aqui">
+                <div class="flex justify-center align-center">
+                    <input class="input-check" type="checkbox" name="Continuar logado" id="continuarLog">
+                    <p class="text-check">Continuar Logado</p>
+                    <button id="forgetPassword" class="button-2">Esqueceu sua senha?</button>
+                </div>                
+                <button class="button-1 bg-purple">Entrar</button>
+                </div>
+            </div>
+        </div>
+    </main>
     <script src="/scripts/modal.js"></script>
 </body>
 </html>

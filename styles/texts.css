@@ -1,0 +1,29 @@
+.title{
+    color: var(--color-purple-6);
+    font-family: cursive;
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+}
+.title2{
+    color: var(--color-purple-1);
+    font-family: cursive;
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+}
+.text-input{
+    color: var(--color-purple-1);
+    font-size: 18px;
+    font-weight: 600;
+}
+.text-check{
+    color: var(--color-purple-1);
+    font-size: 10px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

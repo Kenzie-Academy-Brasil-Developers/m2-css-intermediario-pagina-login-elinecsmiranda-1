@@ -1,0 +1,19 @@
+.input-group{
+    width: 70%;
+    height: 25px;
+    border-radius: var(--radius-1);
+    border: var(--color-purple-1) 1px solid;
+}
+
+.input-group::placeholder{
+    color: var(--color-purple-1);
+    text-transform: capitalize;
+    font-size: 12px;
+    font-weight: 300;
+    padding-left: 10px;
+}
+
+.input-check{
+    width: 15px;
+    height: 15px;
+}

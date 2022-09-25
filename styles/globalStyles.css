@@ -6,10 +6,20 @@
 
 :root{
     --color-primary: /* definir */;
-    --color-grey-1: #191C1F;
-    --color-grey-2: #212529;
-    --color-grey-3: #343A40;
-    --color-grey-4: #ADB5BD;
-    --color-grey-5: #CED4DA;
-    --color-grey-6: #EDF2FF;
+    --color-purple-1: #75205d;
+    --color-purple-2: #754367;
+    --color-purple-3: #C2359B;
+    --color-purple-4: #F542C2;
+    --color-purple-5: #F78DD8;  
+    --color-purple-6: #EDF2FF;
+    --radius-1: 8px;
+    --radius-2: 16px;
+    --radius-top: 16px 16px 0px 0px;
+    --radius-bottom: 0px 0px 16px 16px;
+}
+
+.page{
+    width: 1440px;
+    height: 720px;
+    background-color: var(--color-purple-1);
 }
